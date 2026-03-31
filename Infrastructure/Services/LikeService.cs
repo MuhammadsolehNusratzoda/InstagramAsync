@@ -8,12 +8,7 @@ namespace Infrastructure.Services;
 public class LikeService : ILikeService
 {
     private readonly ApplicationDbContext _context = new();
-
-    public LikeService(ApplicationDbContext context)
-    {
-        _context = context;
-    }
-
+    
     public async Task AddLikeAsync(Like like)
     {
         using var conn = _context.Connect();
