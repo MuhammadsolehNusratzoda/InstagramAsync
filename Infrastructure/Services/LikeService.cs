@@ -33,7 +33,8 @@ public class LikeService : ILikeService
     public async Task<List<Like>> GetLikesOfPostAsync(int postId)
     {
         using var conn = _context.Connect();
-        var sql = @"select * from Likes where PostId = @PostId";
-        return await conn.QueryAsync<Like>(sql, new { PostId = postId }).ToList();
+        var sql = "select * from Likes";
+        var asc = await conn.QueryAsync<Like>(sql);
+        return asc.ToList();
     }
 }

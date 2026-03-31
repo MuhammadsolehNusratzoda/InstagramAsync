@@ -258,11 +258,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Сухайб\\Desktop\\Intagram\\MainApp\\MainApp.csproj",
+      "projectUniqueName": "C:\\Users\\Сухайб\\Desktop\\SQL and DataBase\\Intagram\\MainApp\\MainApp.csproj",
       "projectName": "MainApp",
-      "projectPath": "C:\\Users\\Сухайб\\Desktop\\Intagram\\MainApp\\MainApp.csproj",
+      "projectPath": "C:\\Users\\Сухайб\\Desktop\\SQL and DataBase\\Intagram\\MainApp\\MainApp.csproj",
       "packagesPath": "C:\\Users\\Сухайб\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Сухайб\\Desktop\\Intagram\\MainApp\\obj\\",
+      "outputPath": "C:\\Users\\Сухайб\\Desktop\\SQL and DataBase\\Intagram\\MainApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Сухайб\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -277,11 +277,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\Сухайб\\Desktop\\Intagram\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Сухайб\\Desktop\\Intagram\\Domain\\Domain.csproj"
+            "C:\\Users\\Сухайб\\Desktop\\SQL and DataBase\\Intagram\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Сухайб\\Desktop\\SQL and DataBase\\Intagram\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\Сухайб\\Desktop\\Intagram\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Сухайб\\Desktop\\Intagram\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Сухайб\\Desktop\\SQL and DataBase\\Intagram\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Сухайб\\Desktop\\SQL and DataBase\\Intagram\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

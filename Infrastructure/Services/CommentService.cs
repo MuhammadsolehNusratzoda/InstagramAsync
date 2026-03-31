@@ -27,8 +27,9 @@ public class CommentService : ICommentService
     public async Task<List<Comment>> GetCommentsOfPostsAsync(int postId)
     {
         using var conn = _context.Connect();
-        var sql = @"select * from Comments where PostId = @PostId order by CreationDate desc";
-        return await conn.QueryAsync<Comment>(sql, new { PostId = postId }).ToList();
+        var sql = "select * from Comments";
+        var asc = await conn.QueryAsync<Comment>(sql);
+        return asc.ToList();
     }
 
 }

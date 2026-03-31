@@ -33,7 +33,8 @@ public class UserService : IUserService
     {
         using var conn = _context.Connect();
         var sql = "select * from users";
-        return await conn.QueryAsync<User>(sql).ToList();  
+        var ans =  await conn.QueryAsync<User>(sql);  
+        return ans.ToList();
     }
 
     public async Task UpdateUserAsync(User user)

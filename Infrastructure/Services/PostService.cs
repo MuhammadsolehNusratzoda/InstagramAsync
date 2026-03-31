@@ -19,7 +19,9 @@ public class PostService : IPostService
     public async Task<List<Post>> GetPostsAsync()
     {
         using var conn = _context.Connect();
-        return await conn.QueryAsync<Post>("select * from Posts").ToList();
+        var sql = "select * from Posts";
+        var asc = await conn.QueryAsync<Post>(sql);
+        return asc.ToList();
     }
 
     public async Task DeletePostAsyn(int id)
